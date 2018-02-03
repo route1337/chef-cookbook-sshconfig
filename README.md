@@ -33,14 +33,6 @@ Known Issues
 ------------
 1. None so far :)
 
-Bug Fixes & Changes
-------------
-
-1. v0.1.1
-    1. Set `AllowTcpForwarding no` on the Hardened configuration
-2. v0.1.0
-    1. Initial release
-
 Use Cases
 ------------
 Configuring SSH as part of a base security requirement

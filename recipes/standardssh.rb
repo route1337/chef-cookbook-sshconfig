@@ -7,7 +7,7 @@
 # Maintainers:
 # - Matthew Ahrenstein: matthew@route1337.com
 #
-# See LICENSE.txt
+# See LICENSE
 #
 
 # This recipe will configure standard SSH settings. These are best for environments without stringent security requirements such as internal LANs
