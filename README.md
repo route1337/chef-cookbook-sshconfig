@@ -37,7 +37,7 @@ Bug Fixes & Changes
 ------------
 
 1. v0.1.1
-    1. Set `AllowTCPForwarding No` on the Hardened configuration
+    1. Set `AllowTcpForwarding no` on the Hardened configuration
 2. v0.1.0
     1. Initial release
 

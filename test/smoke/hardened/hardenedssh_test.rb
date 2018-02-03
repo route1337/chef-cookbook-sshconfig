@@ -126,7 +126,7 @@ if ['ubuntu', 'centos'].include?(os[:name])
 
   # Disable TCPForwarding
   describe file('/etc/ssh/sshd_config') do
-    its(:content) { should match /AllowTCPForwarding No/ }
+    its(:content) { should match /AllowTcpForwarding no/ }
   end
 
   # Make sure the login banner is present
