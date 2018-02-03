@@ -83,6 +83,9 @@ case node['platform']
     # Use PAM as a source of user accounts
     node.default['openssh']['server']['use_p_a_m'] = 'yes'
 
+    # Disable TCPForwarding
+    node.default['openssh']['server']['allow_tcp_forwarding'] = 'no'
+
     # Set the banner to /etc/issue.net (used in conjunction with anet-loginbanner)
     node.default['openssh']['server']['banner'] = '/etc/issue.net'
   else

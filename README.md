@@ -22,7 +22,7 @@ Requirements
 Installation Tips
 ------------
 
-1. I personally use Berks to install this into my Chef server, because it's easier.
+1. We personally use Berks to install this into Chef servers, because it will grab the dependencies for you as well.
 2. You must set the attribute ['r1337-sshconfig']['sshpolicy'] to `hardened` if you want something stronger than the default. For most people the default is fine.
 
 Limitations
@@ -36,9 +36,22 @@ Known Issues
 Bug Fixes & Changes
 ------------
 
-1. v0.1.0
-  1. Initial release
+1. v0.1.1
+    1. Set `AllowTcpForwarding no` on the Hardened configuration
+2. v0.1.0
+    1. Initial release
 
 Use Cases
 ------------
 Configuring SSH as part of a base security requirement
+
+Donate To Support This Chef Cookbook
+------------
+Route 1337, LLC operates entirely on donations. If you find this cookbook useful, please consider donating via one of these methods.
+
+1. Bitcoin: 1CnzzrPh3iirEkLRLiWFKXDV9i5TXHQjE2
+2. Bitcoin Cash: qzcq645swgd87s7t5mmmjcumf4armhtjt5euww5c29
+3. Litecoin: LWYbc9hf5ErJsF874Q3wwmMiASHRWgwrjR
+4. Ethereum: 0x117543aa7a4D704849171cA06568Ece71B111D18
+
+Thank you for your support!
