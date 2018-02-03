@@ -114,7 +114,7 @@ if ['ubuntu', 'centos'].include?(os[:name])
     its(:content) { should match /PrintLastLog yes/ }
   end
 
-  # Enable TCP keey alive
+  # Enable TCP keep alive
   describe file('/etc/ssh/sshd_config') do
     its(:content) { should match /TCPKeepAlive yes/ }
   end
@@ -122,6 +122,11 @@ if ['ubuntu', 'centos'].include?(os[:name])
   # Use PAM as a user source
   describe file('/etc/ssh/sshd_config') do
     its(:content) { should match /UsePAM yes/ }
+  end
+
+  # Disable TCPForwarding
+  describe file('/etc/ssh/sshd_config') do
+    its(:content) { should match /AllowTCPForwarding No/ }
   end
 
   # Make sure the login banner is present

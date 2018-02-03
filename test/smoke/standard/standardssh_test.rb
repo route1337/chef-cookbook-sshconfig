@@ -123,7 +123,7 @@ if ['ubuntu', 'centos'].include?(os[:name])
     its(:content) { should match /PrintLastLog yes/ }
   end
 
-  # Enable TCP keey alive
+  # Enable TCP keep alive
   describe file('/etc/ssh/sshd_config') do
     its(:content) { should match /TCPKeepAlive yes/ }
   end
