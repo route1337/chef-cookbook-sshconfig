@@ -7,7 +7,7 @@
 # Maintainers:
 # - Matthew Ahrenstein: matthew@route1337.com
 #
-# See LICENSE.txt
+# See LICENSE
 #
 
 # This recipe should be used in untrusted environments (DMZs) or in environments with tight security regulations

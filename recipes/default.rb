@@ -7,7 +7,7 @@
 # Maintainers:
 # - Matthew Ahrenstein: matthew@route1337.com
 #
-# See LICENSE.txt
+# See LICENSE
 #
 
 # This recipe will deploy SSH settings based on the ['r1337-sshconfig']['sshpolicy'] attribute
