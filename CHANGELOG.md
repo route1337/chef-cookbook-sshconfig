@@ -1,4 +1,4 @@
-r1337-sshconfig - Changelog
+SSH Configuration - Changelog
 ==============
 A list of all the changes made to this cookbook
 

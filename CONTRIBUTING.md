@@ -1,4 +1,4 @@
-r1337-sshconfig - How To Contribute
+SSH Configuration - How To Contribute
 ==============
 If you would like to help contribute to this Chef cookbook you can with a few simple steps.
 

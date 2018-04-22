@@ -1,4 +1,4 @@
-Chef Cookbook - r1337-sshconfig
+Chef Cookbook - r1337-SSH Configuration
 ==============
 This Chef cookbook will configure SSH on Linux servers to be compliant with Route 1337 security policies. There are a few versions of the configuration depending on the recipe that is chosen
 
