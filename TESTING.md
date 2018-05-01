@@ -1,4 +1,4 @@
-r1337-sshconfig - Testing
+SSH Configuration - Testing
 ==============
 All Route 1337 Chef cookbooks are designed to be fully testable inside Kitchen. If you would like to test this Chef cookbook you can with a few simple steps.
 

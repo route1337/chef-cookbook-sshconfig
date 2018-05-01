@@ -1,6 +1,12 @@
-r1337-sshconfig - Changelog
+SSH Configuration - Changelog
 ==============
 A list of all the changes made to this cookbook
+
+Version 0.1.5
+------------
+
+1. Added testing to verify Ubuntu 18.04 support
+2. Documentation fixes
 
 Version 0.1.4
 ------------
