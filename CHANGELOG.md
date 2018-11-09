@@ -2,6 +2,10 @@ SSH Configuration - Changelog
 ==============
 A list of all the changes made to this cookbook
 
+Version 0.1.6
+------------
+1. Removing stale cryptocurrency wallets from donation section of README
+
 Version 0.1.5
 ------------
 
