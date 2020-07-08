@@ -1,3 +1,7 @@
+Deprecated Repo
+------------
+Route 1337, LLC's Chef repos have been deprecated and will no longer be supported. We are happy to take community contributions or invite volunteer maintainers if support is desired. If you wish to maintain our Chef repos you may [contact us](https://www.route1337.com/contact-us/).
+
 Chef Cookbook - SSH Configuration
 ==============
 This Chef cookbook will configure SSH on Linux servers to be compliant with Route 1337 security policies. There are a few versions of the configuration depending on the recipe that is chosen
